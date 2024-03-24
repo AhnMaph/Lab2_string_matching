@@ -22,3 +22,18 @@ Về Rabin-Karp: Tuy không check parttern giống hai giải thuật trên, có
 
 Hoặc trùng số sau khi hash do hash funtion quá "yếu".
 
+#### III. Trường hợp tốt nhất xấu nhất
+
+- KMP và Boyer-Moore:
+             
+  Trường hợp tốt: Trong xâu text/parttern ít xuất hiện suffix/prefix trùng lặp. O(m+n)
+  
+  Trường hợp xấu: Trong xâu text lặp parttern suffix/prefix quá nhiều khiến kiểm tra quay lại liên tục. O(m*n)
+
+- Rabin-Karp:
+
+  Trường hợp tốt: Không gặp giá trị hash trùng lặp một phát ăn luôn. O(m+n) 
+
+  Trường hợp xấu: Hash function tạo ra giá trị 2 xâu khác nhau nhưng trùng lặp liên tục khiến chương trình phải check lại nhiều lần O(n*m) 
+
+
