@@ -1,2 +1,2 @@
 # Lab2_string_matching
-Test case đánh giá String Matching
+Đánh giá 3 giải thuật String Matching
