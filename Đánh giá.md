@@ -24,7 +24,7 @@ Rabin-Karp: dựa vào Hash function.
 
   +  Trường hợp tốt nhất và tệ nhất đều là O(n+m). Trong trường hợp tốt nhất, hàm băm có thể tìm thấy parttern ở vị trí đầu tiên mà không cần kiểm tra lại từng ký tự. Trong trường hợp tệ nhất, chuỗi txt phải được kiểm tra ở mọi vị trí.
 
-#### IV. Ứng dụng thực tế
+#### III. Ứng dụng thực tế
 
 - Giải thuật string matching thường dùng cho quét virus dựa trên signature:
 
