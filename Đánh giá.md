@@ -1,4 +1,4 @@
-#### I. Đánh giá ban đầu về các thuật toán
+### I. Đánh giá ban đầu về các thuật toán
 
 KMP: dựa vào sub parttern đã xuất hiện trước đó để không phải dò lại lần nữa
 
@@ -6,7 +6,7 @@ Boyer-Moore: Dựa vào ký tự mismacth để xem nó có xuất hiện trong 
 
 Rabin-Karp: dựa vào Hash function. 
 
-#### II. Trường hợp tốt nhất xấu nhất
+### II. Trường hợp tốt nhất xấu nhất
 - KMP (Knuth-Morris-Pratt):
   + Trường hợp tốt nhất: Khi parttern cần tìm là một chuỗi con của text, và không giống nhau trừ vị trí đầu tiên. Trong trường hợp này, độ phức tạp của KMP là O(n), với n là độ dài của parttern.
     
@@ -24,7 +24,7 @@ Rabin-Karp: dựa vào Hash function.
 
   +  Trường hợp tốt nhất và tệ nhất đều là O(n+m). Trong trường hợp tốt nhất, hàm băm có thể tìm thấy parttern ở vị trí đầu tiên mà không cần kiểm tra lại từng ký tự. Trong trường hợp tệ nhất, chuỗi txt phải được kiểm tra ở mọi vị trí.
 
-#### III. Ứng dụng thực tế
+### III. Ứng dụng thực tế
 
 - Giải thuật string matching thường dùng cho quét virus dựa trên signature:
 
