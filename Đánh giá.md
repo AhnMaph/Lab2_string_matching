@@ -10,7 +10,7 @@ Rabin-Karp: dựa vào Hash function.
 - KMP (Knuth-Morris-Pratt):
   + Trường hợp tốt nhất: Khi parttern cần tìm là một chuỗi con của text, và không giống nhau trừ vị trí đầu tiên. Trong trường hợp này, độ phức tạp của KMP là O(n), với n là độ dài của parttern.
     
-  + Trường hợp tệ nhất: Khi may mắn không mỉm cười parttern cần tìm không thể được tìm thấy hoặc ở vị trí cuối cùng của txt, KMP phải so sánh từng ký tự của chuỗi cần tìm với từng ký tự của txt, dẫn đến độ phức tạp là O(n + m), với n là độ dài chuỗi txt và m là độ dài chuỗi parttern cần tìm.
+  + Trường hợp tệ nhất: Khi may mắn không mỉm cười, parttern cần tìm không thể được tìm thấy hoặc ở vị trí cuối cùng của txt, KMP phải so sánh từng ký tự của chuỗi cần tìm với từng ký tự của txt, dẫn đến độ phức tạp là O(n + m), với n là độ dài chuỗi txt và m là độ dài chuỗi parttern cần tìm.
 
     **** Xét trường ví dụ trên lớp: Trường hợp trùng lặp proper suffix/prefix giữa parttern và txt khiến chương trình phải quay lại xét nhiều lần cho đến khi chấp nhận "sự thật". Lúc này độ phức tạp là O(n+m)  
 
